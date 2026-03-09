@@ -3,7 +3,8 @@
    -------------------------------- */
 const fadeEls = document.querySelectorAll(
   '.section-about, .section-menu, .section-flow, .section-news, .section-access, ' +
-  '.about-grid, .menu-card, .flow li, .news li, .access-card, ' +
+  '.menu-card, .flow li, .news li, .access-card, ' +
+  '.about-left, .about-right, .about-grid > .text, .about-bottom, .about-note, .about-alt, ' +
   'h2, h3, .lead, .text, .about-alt, .about-note, .checklist, ' +
   '.mrow, .access-dl, .access-name, .map-card, .menu-title, .menu-sub, .menu-foot'
 );
