@@ -3,7 +3,9 @@
    -------------------------------- */
 const fadeEls = document.querySelectorAll(
   '.section-about, .section-menu, .section-flow, .section-news, .section-access, ' +
-  '.about-grid, .menu-card, .flow li, .news li, .access-card'
+  '.about-grid, .menu-card, .flow li, .news li, .access-card, ' +
+  'h2, h3, .lead, .text, .about-alt, .about-note, .checklist, ' +
+  '.mrow, .access-dl, .access-name, .map-card, .menu-title, .menu-sub, .menu-foot'
 );
 
 const observer = new IntersectionObserver(
