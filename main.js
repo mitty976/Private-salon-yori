@@ -11,8 +11,6 @@ const observer = new IntersectionObserver(
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.classList.add('visible');
-        // 一度表示したら監視を外す（再アニメーションしない）
-        observer.unobserve(entry.target);
       }
     });
   },
