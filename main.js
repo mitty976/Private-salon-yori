@@ -4,7 +4,7 @@
 const fadeEls = document.querySelectorAll(
   '.section-flow, .section-news, .section-access, ' +
   '.about-left, .about-right, .about-grid > .text, .about-bottom, .about-note, .about-alt, ' +
-  '.menu-shop, .menu-right, .menu-block, .mrow, ' +
+  '.menu-block, .menu-title, .mrow, ' +
   '.flow li, .news li, .access-card'
 );
 
