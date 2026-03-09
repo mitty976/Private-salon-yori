@@ -2,7 +2,7 @@
     スクロールで要素をフェードイン
    -------------------------------- */
 const fadeEls = document.querySelectorAll(
-  '.section-about, .section-menu, .section-flow, .section-news, .section-access, ' +
+  '.section-menu, .section-flow, .section-news, .section-access, ' +
   '.about-left, .about-right, .about-grid > .text, .about-bottom, .about-note, .about-alt, ' +
   '.menu-card, .flow li, .news li, .access-card'
 );
