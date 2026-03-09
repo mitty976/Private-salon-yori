@@ -2,9 +2,10 @@
     スクロールで要素をフェードイン
    -------------------------------- */
 const fadeEls = document.querySelectorAll(
-  '.section-menu, .section-flow, .section-news, .section-access, ' +
+  '.section-flow, .section-news, .section-access, ' +
   '.about-left, .about-right, .about-grid > .text, .about-bottom, .about-note, .about-alt, ' +
-  '.menu-card, .flow li, .news li, .access-card'
+  '.menu-shop, .menu-right, .menu-block, .mrow, ' +
+  '.flow li, .news li, .access-card'
 );
 
 const observer = new IntersectionObserver(
