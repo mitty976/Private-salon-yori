@@ -1,4 +1,4 @@
-# Private-salon-yori
+# Private salon yori
 ① プロジェクト概要
 
 コンセプト課題として制作した個人サロン向けLP
